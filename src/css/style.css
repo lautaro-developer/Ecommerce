@@ -1,0 +1,162 @@
+
+.conteiner {
+  margin: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+/* body */
+
+.sesion__destacados {
+  text-align: center;
+}
+
+
+
+
+
+.text {
+  position: absolute;
+}
+
+
+.imgComputadoras {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.a {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.ofertaDelDia {
+  display: flex;
+  align-items: center;
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+
+.div__imgOferta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 50%;
+}
+
+.imgOferta {
+  width: 300px;
+}
+
+.textoOferta {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+.texto {
+  margin: 20px 0 0 0;
+  font-size: 20px;
+}
+
+.dinero {
+  color: #00ff00;
+}
+
+.c {
+  filter: opacity(80%);
+  transition: all ease 500ms;
+}
+
+.c:hover {
+  filter: opacity(100%);
+}
+
+.consola {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.verProducto {
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+
+  margin: 10px 0 10px 0;
+  transition: all ease 500ms;
+
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.consolasDestacadas {
+  height: 500px;
+}
+
+.verProducto:hover {
+  background-color: rgb(156, 156, 156);
+}
+
+.divConsolas {
+  border-radius: 5px;
+}
+
+.imgConsola {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.contenedorConsolas {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.consolaLogo > img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.consolaLogo {
+  width: 100px;
+}
+
+.nombreLogo {
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn > button {
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 20px;
+  width: 90%;
+}
+
+.btn__xbox {
+  background-color: #00ff00;
+}
+
+.btn__nintendo {
+  background-color: #ff0000;
+}
+.btn__ps5 {
+  background-color: #0000ff;
+}
+

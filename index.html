@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/base.css" />
+
+    <!-- HEADER -->
+    <link rel="stylesheet" href="./src/css/header/header.css" />
+    <link
+      rel="stylesheet"
+      href="./src/css/header/div_conteinerImg/img_imgLogo.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/css/header/input_inputBuscar__item/inpurBuscar__item.css"
+    />
+
+    <link rel="stylesheet" href="./src/css/header/icon_search/search.css" />
+
+    <link rel="stylesheet" href="./src/css/header/nav_Lista/navLista.css" />
+    <!--Sesion Destacados-->
+
+    <link
+      rel="stylesheet"
+      href="./src/css/body/sesion_destacados/div_destacados.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./src/css/body/sesion_destacados/img_destacados/img_destacados.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./buscar.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <header id="header">
+        <div>
+          <div>
+            <img
+              src="./src/img/1200px-Magicdelivery_gaming_logo.svg.png"
+              alt="Logo de la empresa"
+              id="imgLogo"
+            />
+          </div>
+        </div>
+        <div>
+          <div>
+            <input
+              type="search"
+              name="buscar"
+              class="inputBuscar__item"
+              placeholder="Buscar producto. Por ejem 'SMART'"
+            />
+            <ion-icon name="search-sharp" class="search"></ion-icon>
+          </div>
+          <div class="titulo">
+            <div class="conteinerList">
+              <ul data-list="lista">
+                <div class="li">
+                  <div class="obj">hola</div>
+                  <div class="nombre">hola</div>
+                </div>
+              </ul>
+
+              <ul data-list="lista">
+                <div class="li">
+                  <div class="obj"><a href="#">perla</a></div>
+                  <div class="nombre">perla</div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <nav>
+            <ul id="navLista">
+              <li>
+                <a href="#">
+                  <ion-icon name="home-outline"></ion-icon>
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="help-circle-outline"></ion-icon>
+                  Sobre nosotros
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="log-in-outline"></ion-icon>
+                  Iniciar sesion
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="person-add-outline"></ion-icon>
+                  Crear cuenta
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="sesion__destacados">
+        <h2>Productos destacados</h2>
+        <div class="div__destacados">
+          <img
+            src="./src/img/RE4HELg.jpeg"
+            alt="Destacado"
+            class="img__destacados"
+          />
+          <p class="text">texto</p>
+          <img
+            src="./src/img/RE4HELg.jpeg"
+            alt="Destacado"
+            class="img__destacados"
+          />
+          <img
+            src="./src/img/RE4HELg.jpeg"
+            alt="Destacado"
+            class="img__destacados"
+          />
+        </div>
+      </section>
+
+      <a href="#">
+        <section class="ofertaDelDia">
+          <div class="div__imgOferta">
+            <div class="compuLenovo">
+              <img class="imgOferta" src="./src/img/pcOferta.png" alt="" />
+            </div>
+          </div>
+          <div class="textoOferta">
+            <h4>PC Gamer Lennovo</h4>
+            <ul>
+              <li>Intel 79842</li>
+              <li>36GB | 30 Usables</li>
+              <li>SDD 1TB | HDD 500GB</li>
+            </ul>
+          </div>
+        </section>
+      </a>
+
+      <section class="conteinerCaja">
+        <div class="tituloSesion">
+          <h2>
+            <i class="fa fa-desktop fa-lg" aria-hidden="true"></i> computadoras
+          </h2>
+          <a href="#">Mas computadoras</a>
+        </div>
+
+        <div class="grid">
+          <div class="a">
+            <div class="c">
+              <img
+                class="imgComputadoras"
+                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
+                alt=""
+              />
+              <h4>
+                Pc de oficina | <span class="dinero">precio: 20$</span> |
+                <span class="dinero">Decuento del 20%</span>
+              </h4>
+              <div class="texto">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
+                  quisquam quod laudantium. Sunt, exercitationem nihil ea
+                  perferendis consectetur animi asperiores numquam iure a.
+                </p>
+                <button class="verProducto">Ver producto</button>
+              </div>
+            </div>
+
+            <div class="c">
+              <img
+                class="imgComputadoras"
+                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
+                alt=""
+              />
+              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
+              <div class="texto">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
+                  quisquam quod laudantium. Sunt, exercitationem nihil ea
+                  perferendis consectetur animi asperiores numquam iure a.
+                </p>
+                <button class="verProducto">Ver producto</button>
+              </div>
+            </div>
+
+            <div class="c">
+              <img
+                class="imgComputadoras"
+                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
+                alt=""
+              />
+              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
+              <div class="texto">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
+                  quisquam quod laudantium. Sunt, exercitationem nihil ea
+                  perferendis consectetur animi asperiores numquam iure a.
+                </p>
+                <button class="verProducto">Ver producto</button>
+              </div>
+            </div>
+
+            <div class="c">
+              <img
+                class="imgComputadoras"
+                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
+                alt=""
+              />
+              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
+              <div class="texto">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
+                  quisquam quod laudantium. Sunt, exercitationem nihil ea
+                  perferendis consectetur animi asperiores numquam iure a.
+                </p>
+                <button class="verProducto">Ver producto</button>
+              </div>
+            </div>
+
+            <div class="c">
+              <img
+                class="imgComputadoras"
+                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
+                alt=""
+              />
+              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
+              <div class="texto">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
+                  quisquam quod laudantium. Sunt, exercitationem nihil ea
+                  perferendis consectetur animi asperiores numquam iure a.
+                </p>
+                <button class="verProducto">Ver producto</button>
+              </div>
+            </div>
+
+            <div class="c">
+              <img
+                class="imgComputadoras"
+                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
+                alt=""
+              />
+              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
+              <div class="texto">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
+                  quisquam quod laudantium. Sunt, exercitationem nihil ea
+                  perferendis consectetur animi asperiores numquam iure a.
+                </p>
+                <button class="verProducto">Ver producto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="consolasDestacadas">
+        <div class="contenedorConsolas">
+          <div class="divConsolas">
+            <div class="imgConsola">
+              <img class="consola" src="./src/img/nintendo switch.jpg" alt="" />
+              <div class="nombreLogo">
+                <div class="consolaNombre">
+                  <p>
+                    Consola Nintendo Switch <br />
+                    Precio 700$
+                  </p>
+                </div>
+                <div class="consolaLogo">
+                  <img src="./src/img/nintendoLogo.png" alt="" />
+                </div>
+              </div>
+              <div class="btn">
+                <button class="verProducto__consola btn__nintendo">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="divConsolas">
+            <div class="imgConsola">
+              <img class="consola" src="./src/img/ps5.jpg" alt="" />
+              <div class="nombreLogo">
+                <div class="consolaNombre">
+                  <p>
+                    Consola PlayStation 5 <br />
+                    Precio 200$
+                  </p>
+                </div>
+                <div class="consolaLogo">
+                  <img src="./src/img/images.png" alt="" />
+                </div>
+              </div>
+              <div class="btn">
+                <button class="verProducto__consola btn__ps5">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="divConsolas">
+            <div class="imgConsola">
+              <img
+                class="consola"
+                src="./src/img/microsoft-xbox-series-x-xbox-series-s-2507569.webp"
+                alt=""
+              />
+              <div class="nombreLogo">
+                <div class="consolaNombre">
+                  <p>
+                    Consola Xbox serie X <br />
+                    Precio 100$
+                  </p>
+                </div>
+                <div class="consolaLogo">
+                  <img src="./src/img/descarga (2).png" alt="" />
+                </div>
+              </div>
+              <div class="btn">
+                <button class="verProducto__consola btn__xbox">
+                  Ver detalles
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="listaFooter">
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Accesibilidad</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Defensa del consumidor</a></li>
+        </ul>
+      </div>
+
+      <div class="masInformacion">
+        <div class="redes">
+          <h4>Redes sociales</h4>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!--MIS SCRIPTS-->
+    <script src="./src/js/import.js"></script>
+    <script src="./src/js/buscador.js"></script>
+
+    <!--No tocar-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

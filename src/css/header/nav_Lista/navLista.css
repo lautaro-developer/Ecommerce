@@ -1,0 +1,11 @@
+#navLista {
+  display: flex;
+  font-size: 20px;
+  gap: 20px;
+
+  color: #000;
+}
+
+#navLista li a {
+  color: #000;
+}

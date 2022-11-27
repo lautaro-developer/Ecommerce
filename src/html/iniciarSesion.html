@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/footer/listaFooter.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/iniciar sesion/base.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/header/header.css" />
+    <link rel="stylesheet" href="../css/iniciar sesion/iniciar sesion.css" />
+    <link
+      rel="stylesheet"
+      href="../css/header/div_conteinerImg/img_imgLogo.css"
+    />
+    <link rel="stylesheet" href="../css/header/icon_search/search.css" />
+    <link
+      rel="stylesheet"
+      href="../css/header/input_inputBuscar__item/inpurBuscar__item.css"
+    />
+    <link rel="stylesheet" href="../css/header/nav_Lista/navLista.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <header>
+        <div>
+          <div>
+            <img
+              src="../img/1200px-Magicdelivery_gaming_logo.svg.png"
+              alt="Logo de la empresa"
+              id="imgLogo"
+            />
+          </div>
+        </div>
+        <div>
+          <input
+            type="search"
+            name="buscar"
+            class="inputBuscar__item"
+            placeholder="Buscar producto. Por ejem 'SMART'"
+          />
+          <ion-icon name="search-sharp" class="search"></ion-icon>
+        </div>
+        <div>
+          <nav>
+            <ul id="navLista">
+              <li>
+                <a href="#">
+                  <ion-icon name="home-outline"></ion-icon>
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="help-circle-outline"></ion-icon>
+                  Sobre nosotros
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="log-in-outline"></ion-icon>
+                  Iniciar sesion
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="person-add-outline"></ion-icon>
+                  Crear cuenta
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="conteinerForm">
+        <div>
+          <div class="con">
+            <div class="formdiv">
+              <h1>Inicie sesion</h1>
+              <form action="" class="form">
+                <div class="div__nombre">
+                  <input
+                    type="text"
+                    name="nombre"
+                    class="input__nombre"
+                    placeholder="Nombre"
+                  />
+                </div>
+
+                <div class="div__pass">
+                  <input
+                    type="password"
+                    name="pass"
+                    class="input__pass"
+                    placeholder="Contraseña"
+                  />
+                </div>
+                <button class="btn">Iniciar sesion</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!--div class="recuperar">
+          <p>Recuperar contraseña | iniciar sesion</p>
+        </div-->
+      </div>
+    </div>
+
+    <footer>
+      <div class="listaFooter">
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Accesibilidad</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Defensa del consumidor</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../js/login.js"></script>
+    <script src="../js/preventDefault.js"></script>
+  </body>
+</html>

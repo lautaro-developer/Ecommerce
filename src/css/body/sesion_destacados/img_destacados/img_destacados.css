@@ -1,0 +1,11 @@
+.img__destacados {
+  width: 32.2%;
+  background-color: #000;
+  filter: opacity(50%);
+
+  border-radius: 5px;
+}
+
+.img__destacados:hover {
+  filter: opacity(100%);
+}
