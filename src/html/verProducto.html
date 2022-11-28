@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ver producto</title>
+    <link rel="stylesheet" href="../css/base.css" />
+
+    <!-- header -->
+
+    <link rel="stylesheet" href="../css/header/header.css" />
+    <link
+      rel="stylesheet"
+      href="../css/header/div_conteinerImg/img_imgLogo.css"
+    />
+    <link rel="stylesheet" href="../css/header/icon_search/search.css" />
+    <link
+      rel="stylesheet"
+      href="../css/header/input_inputBuscar__item/inpurBuscar__item.css"
+    />
+    <link rel="stylesheet" href="../css/header/nav_Lista/navLista.css" />
+
+    <!-- footer -->
+    <link rel="stylesheet" href="../css/footer/listaFooter.css" />
+
+    <!-- mis css -->
+    <link rel="stylesheet" href="../css/verProductos/a.css" />
+  </head>
+  <body>
+    <div class="conteiner">
+      <header>
+        <div>
+          <div>
+            <img
+              src="../img/1200px-Magicdelivery_gaming_logo.svg.png"
+              alt="Logo de la empresa"
+              id="imgLogo"
+            />
+          </div>
+        </div>
+        <div>
+          <input
+            required
+            type="search"
+            name="buscar"
+            class="inputBuscar__item"
+            placeholder="Buscar producto. Por ejem 'SMART'"
+          />
+          <ion-icon name="search-sharp" class="search"></ion-icon>
+        </div>
+        <div>
+          <nav>
+            <ul id="navLista">
+              <li>
+                <a href="#">
+                  <ion-icon name="home-outline"></ion-icon>
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="help-circle-outline"></ion-icon>
+                  Sobre nosotros
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="log-in-outline"></ion-icon>
+                  Iniciar sesion
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <ion-icon name="person-add-outline"></ion-icon>
+                  Crear cuenta
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div class="conteinerInfo">
+        <div class="img"><img src="../img/nintendo switch.jpg" alt="" /></div>
+        <aside class="infoProducto">
+          <div class="nombreProducto">
+            <span>Nombre</span>
+            <p>Nintendo Switch</p>
+          </div>
+          <div class="nombreProducto">
+            <span>Tipo</span>
+            <p>Consola de sobremesa</p>
+          </div>
+          <div class="nombreProducto">
+            <span>precio</span>
+            <p>200 euros</p>
+          </div>
+          <div class="nombreProducto">
+            <span>stock</span>
+            <p>Disponible</p>
+          </div>
+          <div class="descripcionProducto">Consola nintendo switch</div>
+        </aside>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="listaFooter">
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Accesibilidad</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Defensa del consumidor</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="../js/estilos.js"></script>
+  </body>
+</html>
