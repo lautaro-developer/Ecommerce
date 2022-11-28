@@ -1,11 +1,19 @@
 #navLista {
   display: flex;
   font-size: 20px;
-  gap: 20px;
+  gap: 5px;
 
   color: #000;
 }
 
 #navLista li a {
+  padding: 5px;
   color: #000;
+  transition: all ease 500ms;
+
+  border: 2px solid transparent;
+}
+
+#navLista li a:hover {
+  border-bottom: 2px solid rgb(2, 72, 176);
 }
