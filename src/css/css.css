@@ -1,0 +1,89 @@
+.cuenta {
+  display: none;
+}
+
+.cuenta2 {
+  left: 72%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  border-radius: 5px;
+  width: 27%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid;
+}
+
+.cuenta2 > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cuenta2 > form > input {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid;
+}
+
+.cuenta2 > form > input:focus {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #0057fa;
+}
+
+.cuenta2 > form > button {
+  font-size: 20px;
+  padding: 5px;
+  width: 100%;
+  margin: 15px 0;
+  cursor: pointer;
+  border: 2px solid;
+}
+
+.cuenta2 > form > button:hover {
+  border: 2px solid #0057fa;
+  color: #0057fa;
+  background-color: #ffffff;
+}
+
+.crearCuenta {
+  margin: 10px;
+  text-align: center;
+}
+
+.mostrar__inputIncorrectos {
+  border: 2px solid rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.mostrar__datosCorrectos {
+  border: 2px solid rgb(0, 255, 0);
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+.datosIncorrectos {
+  display: none;
+}
+
+.datosIncorrectos > p {
+  white-space: break-word;
+}
+
+.mostrar__datosIncorrectos {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 15px 0 0 0;
+
+  border-bottom: 2px solid rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.2);
+
+}
