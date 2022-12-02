@@ -80,7 +80,7 @@
         <div>
           <div class="con">
             <div class="formdiv">
-              <h1>Inicie sesion</h1>
+              <h1>Crear cuenta</h1>
               <form action="" class="form">
                 <div class="div__nombre">
                   <input
@@ -88,9 +88,10 @@
                     type="text"
                     name="nombre"
                     class="input__nombre"
-                    placeholder="Nombre"
-                    data-input="nombre"
+                    placeholder="Nombre*"
+                    data-nombre
                     id="nombre"
+                    pattern="([A-Za-z])\w+"
                   />
                 </div>
 
@@ -98,16 +99,16 @@
                   <input
                     required
                     type="text"
-                    placeholder="Apellido"
-                    data-input="apellido"
+                    placeholder="Apellido*"
+                    data-apellido
                   />
                 </div>
                 <div class="pass">
                   <input
                     required
                     type="password"
-                    placeholder="Contraseña"
-                    data-input="pass"
+                    placeholder="Contraseña*"
+                    data-pass
                   />
                 </div>
                 <div class="div__pass">
@@ -116,24 +117,24 @@
                     type="password"
                     name="pass"
                     class="input__pass"
-                    placeholder="Contraseña"
-                    data-input="passValidar"
+                    placeholder="Contraseña*"
+                    data-validarPass
                   />
                 </div>
                 <div class="tarjeta">
                   <input
                     required
                     type="number"
-                    placeholder="Tarjeta de credito"
-                    data-input="tarjeta"
+                    placeholder="Tarjeta de credito*"
+                    data-tarjeta
                   />
                   <input
                     required
                     type="text"
                     multiple
-                    placeholder="Selecsione una opcion"
+                    placeholder="Selecsione una opcion*"
                     list="none"
-                    data-input="tarjetaOpcion"
+                    data-tarjetaOpcion
                   />
                 </div>
 
@@ -165,7 +166,7 @@
         </ul>
       </div>
     </footer>
-    <script src="../js/preventDefault.js"></script>
-    <script src="../js/crearCuenta.js"></script>
+    <script type="module" src="../js/utilidades.js"></script>
+    <script type="module" src="../js/crearCuenta.js"></script>
   </body>
 </html>

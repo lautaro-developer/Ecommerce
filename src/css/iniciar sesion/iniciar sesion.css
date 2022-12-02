@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #d1d1d1;
 }
 
@@ -6,27 +6,29 @@ input {
   font-size: 20px;
   padding: 5px;
   margin: 5px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000000;
 }
 
 .conteinerForm {
   height: 70vh;
 }
 
-
 .conteinerForm > div {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-
 }
 
 .con {
   border: 1px solid;
   border-radius: 5px;
-  height: auto;
   padding: 20px;
   background-color: #fff;
+
+  width: 400px;
 }
 
 .con > h1 {
@@ -34,8 +36,38 @@ input {
   text-align: center;
 }
 
-.btn{
+.btn {
   width: 100%;
   padding: 5px;
   font-size: 20px;
+}
+
+.datosIncorrectos {
+  display: none;
+}
+
+.datosIncorrectos > p {
+  white-space: break-word;
+}
+
+.mostrar__datosIncorrectos {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: 15px 0 0 0;
+
+  border-bottom: 2px solid rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.2);
+
+}
+
+.mostrar__inputIncorrectos {
+  border-bottom: 2px solid rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.mostrar__datosCorrectos {
+  border-bottom: 2px solid rgb(0, 255, 0);
+  background-color: rgba(0, 255, 0, 0.2);
 }

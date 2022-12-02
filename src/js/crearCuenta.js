@@ -1,18 +1,23 @@
-let inputs = document.querySelectorAll("input");
-inputs.forEach((i) => {
-  i.addEventListener("blur", (i) => validar(i.target));
-});
+import { importModule } from "./utilidades.js"
+let btn = importModule.qs("form");
+let input = () => {
+  const nombre = importModule.qs("[data-nombre]").value;
+  const apellido = importModule.qs("[data-apellido]").value;
+  const pass = importModule.qs("[data-pass]").value;
+  const passValidar = importModule.qs("[data-validarPass]").value;
+  const tarjeta = importModule.qs("[data-tarjeta]").value;
+  const tarjetaOpcion = importModule.qs("[data-tarjetaOpcion]").value;
 
-let regex = /([A-Z])\w+/;
+  let objetoDeDatos = {
+    nombre,
+    apellido,
+    pass,
+    passValidar,
+    tarjeta,
+    tarjetaOpcion,
+  };
+  let guardarDatos = localStorage.setItem("datos", JSON.stringify(objetoDeDatos))
+  window.location.replace('../html/verProducto.html')
+};
 
-function validar(v) {
-  const inputValor = v.dataset.input;
-
-  let ok = regex.exec(v[a]);
-
-  if (!ok) {
-    console.log("nose");
-  } else {
-    console.log("piola");
-  }
-}
+btn.addEventListener("submit", input);

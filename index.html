@@ -39,6 +39,9 @@
     />
 
     <link rel="stylesheet" href="./buscar.css" />
+
+    <link rel="stylesheet" href="./src/css/css.css" />
+    <link rel="stylesheet" href="./src/css/base.css" />
   </head>
   <body>
     <div class="conteiner">
@@ -64,7 +67,6 @@
           </div>
           <div class="titulo">
             <div class="conteinerList">
-
               <!--ul data-list="lista">
                 <div class="li">
                   <div class="obj">play</div>
@@ -103,19 +105,38 @@
                   Sobre nosotros
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  <ion-icon name="log-in-outline"></ion-icon>
-                  Iniciar sesion
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <ion-icon name="person-add-outline"></ion-icon>
-                  Crear cuenta
-                </a>
+              <li class="cuentaVerCampos">
+                <a href="#" class="verCampos">Iniciar sesion</a>
               </li>
             </ul>
+            <div class="cuenta">
+              <form action="" id="form">
+                <label for="nombre">Nombre:</label>
+                <input
+                  type="text"
+                  class="input__nombre"
+                  data-nombre
+                />
+                <label for="nombre">Contraseña:</label>
+                <input
+                  type="text"
+                  class="input__pass"
+                  data-pass
+                />
+                <button>Iniciar sesion</button>
+              </form>
+              <div class="crearCuenta">
+                <p>
+                  <a href="./src/html/crearCuenta.html">Crear cuenta</a> |
+                  <a href="#">¿no puede iniciar sesion?</a>
+                </p>
+              </div>
+
+              <div class="datosIncorrectos">
+                <p>El nombre y/o la contraseña estan incorrectos</p>
+              </div>
+
+            </div>
           </nav>
         </div>
       </header>
@@ -380,8 +401,9 @@
     </footer>
 
     <!--MIS SCRIPTS-->
-    <script src="./src/js/import.js"></script>
-    <script src="./src/js/buscador.js"></script>
+    <script type="module" src="./src/js/buscador.js"></script>
+    <script type="module" src="./src/js/mostrarCampos.js"></script>
+    <script type="module" src="./src/js/verificarDatos.js"></script>
 
     <!--No tocar-->
     <script

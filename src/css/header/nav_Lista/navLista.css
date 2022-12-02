@@ -10,10 +10,8 @@
   padding: 5px;
   color: #000;
   transition: all ease 500ms;
-
-  border: 2px solid transparent;
 }
 
 #navLista li a:hover {
-  border-bottom: 2px solid rgb(2, 72, 176);
+  background-color: rgba(0, 217, 255, 0.244);
 }

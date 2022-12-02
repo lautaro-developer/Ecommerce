@@ -15,6 +15,23 @@
   display: flex;
   gap: 5px;
 }
+/* prueba */
 
-.nombreProducto > span {
+.nombre {
+  display: flex;
+  gap: 20px;
+  border-bottom: 2px solid;
+
+  padding: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #77ff51;
+  border: 2px solid;
+}
+
+button:active {
+  background-color: red;
 }

@@ -79,13 +79,14 @@
           <div class="con">
             <div class="formdiv">
               <h1>Inicie sesion</h1>
-              <form action="" class="form">
+              <form action="./verProducto.html" class="form" >
                 <div class="div__nombre">
                   <input
                     type="text"
                     name="nombre"
                     class="input__nombre"
                     placeholder="Nombre"
+                    data-nombre
                   />
                 </div>
 
@@ -95,9 +96,13 @@
                     name="pass"
                     class="input__pass"
                     placeholder="Contraseña"
+                    data-pass
                   />
                 </div>
                 <button class="btn">Iniciar sesion</button>
+                <div class="datosIncorrectos">
+                  <p>El nombre y/o la contraseña estan incorrectos</p>
+                </div>
               </form>
             </div>
           </div>
@@ -119,7 +124,7 @@
         </ul>
       </div>
     </footer>
-    <script src="../js/login.js"></script>
-    <script src="../js/preventDefault.js"></script>
+    <script type="module" src="../js/iniciarSesion.js"></script>
+    <script type="module" src="../js/utilidades.js"></script>
   </body>
 </html>
