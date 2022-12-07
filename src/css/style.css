@@ -79,7 +79,6 @@ section {
 }
 
 .consola {
-  border-radius: 20px;
   width: 100%;
 }
 
@@ -105,13 +104,12 @@ section {
 }
 
 .divConsolas {
-  border-radius: 5px;
+  border-radius: 2%;
+  overflow: hidden;
 }
 
 .imgConsola {
   background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 20px;
-  padding: 10px;
 }
 
 .contenedorConsolas {

@@ -1,0 +1,15 @@
+.masInformacion {
+  margin: 2%;
+}
+
+.masInformacion > .redes > h4 {
+  text-align: center;
+  padding: 3%;
+}
+
+
+.masInformacion > .redes > ul {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}

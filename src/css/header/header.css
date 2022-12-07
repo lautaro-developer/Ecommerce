@@ -3,3 +3,6 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.movil {
+  display: none;
+}

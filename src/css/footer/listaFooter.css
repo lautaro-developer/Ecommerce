@@ -1,28 +1,5 @@
-footer {
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  width:100%;
-
-  border-top: 2px solid;
-  padding: 5px;
-}
-
 .listaFooter > ul {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+  display: block;
+  gap: 5%;
   justify-content: center;
-}
-
-.listaFooter > ul > li > a {
-  color: #000;
-}
-
-.listaFooter > ul > li:hover {
-  text-decoration: underline;
-}
-
-.masInformacion {
-  display: none; 
 }

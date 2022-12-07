@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+  .listaFooter > ul {
+    display: flex;
+    text-align: center;
+  }
+
+  .listaFooter > ul > li > a {
+    margin: 20px;
+  }
+
+  .ofertaDelDia {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    background-color: #ff0000;
+  }
+
+  .contenedorConsolas {
+    display: block;
+  }
+
+  .divConsolas {
+    margin: 20px 0;
+  }
+
+  .consolasDestacadas {
+    height: 100%;
+  }
+  .a {
+    display: block;
+  }
+  .div__imgOferta {
+    display: initial;
+  }
+
+  .imgOferta {
+    width: 100%;
+  }
+
+  .div__destacados {
+    display: initial;
+  }
+
+  .img__destacados {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .movil {
+    display: initial;
+  }
+  header {
+    flex-direction: column;
+    justify-content: none;
+  }
+
+  .movil > nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .searchMovil {
+    margin: 10px 0;
+  }
+  .searchMovil > input {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .movil > nav > a:nth-child(2) {
+    color: black;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .searchDiv {
+    display: none;
+  }
+}

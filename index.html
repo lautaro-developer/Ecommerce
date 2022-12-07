@@ -42,6 +42,10 @@
 
     <link rel="stylesheet" href="./src/css/css.css" />
     <link rel="stylesheet" href="./src/css/base.css" />
+
+    <link rel="stylesheet" href="./src/css/responcive.css" />
+    <link rel="stylesheet" href="./src/css/footer/listaFooter.css">
+    <link rel="stylesheet" href="./src/css/footer/redesSociales.css">
   </head>
   <body>
     <div class="conteiner">
@@ -55,7 +59,7 @@
             />
           </div>
         </div>
-        <div>
+        <div class="searchDiv">
           <div>
             <input
               type="search"
@@ -91,7 +95,22 @@
           </div>
         </div>
         <div>
-          <nav>
+          <div class="movil">
+            <nav>
+              <a href="./src/html/iniciarSesion.html">Iniciar sesion</a>
+              <a href="./src/html/crearCuenta.html">Crear cuenta</a>
+            </nav>
+
+            <div class="searchMovil">
+              <input
+                type="search"
+                name=""
+                id=""
+                placeholder="Buscar producto"
+              />
+            </div>
+          </div>
+          <nav class="nav">
             <ul id="navLista">
               <li>
                 <a href="#">
@@ -112,17 +131,9 @@
             <div class="cuenta">
               <form action="" id="form">
                 <label for="nombre">Nombre:</label>
-                <input
-                  type="text"
-                  class="input__nombre"
-                  data-nombre
-                />
+                <input type="text" class="input__nombre" data-nombre />
                 <label for="nombre">Contraseña:</label>
-                <input
-                  type="text"
-                  class="input__pass"
-                  data-pass
-                />
+                <input type="password" class="input__pass" data-pass />
                 <button>Iniciar sesion</button>
               </form>
               <div class="crearCuenta">
@@ -135,7 +146,6 @@
               <div class="datosIncorrectos">
                 <p>El nombre y/o la contraseña estan incorrectos</p>
               </div>
-
             </div>
           </nav>
         </div>
@@ -149,14 +159,9 @@
             alt="Destacado"
             class="img__destacados"
           />
-          <p class="text">texto</p>
+          <img src="./src/img/bg.jpg" alt="Destacado" class="img__destacados" />
           <img
-            src="./src/img/RE4HELg.jpeg"
-            alt="Destacado"
-            class="img__destacados"
-          />
-          <img
-            src="./src/img/RE4HELg.jpeg"
+            src="./src/img/bg2.jpg"
             alt="Destacado"
             class="img__destacados"
           />
@@ -184,9 +189,7 @@
       <section class="conteinerCaja">
         <div class="tituloSesion">
           <h2>
-            <i class="fa fa-desktop fa-lg" aria-hidden="true"></i> computadoras
-          </h2>
-          <a href="#">Mas computadoras</a>
+            <i class="fa fa-desktop fa-lg" aria-hidden="true"></i> computadoras > <a href="#">Mas computadoras</a></h2>
         </div>
 
         <div class="grid">
@@ -204,10 +207,20 @@
               <div class="texto">
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
-                  quisquam quod laudantium. Sunt, exercitationem nihil ea
-                  perferendis consectetur animi asperiores numquam iure a.
+                  <button class="verProducto">Ver producto</button>
                 </p>
+              </div>
+            </div>
+
+            <div class="c">
+              <img
+                class="imgComputadoras"
+                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
+                alt=""
+              />
+              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
+              <div class="texto">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 <button class="verProducto">Ver producto</button>
               </div>
             </div>
@@ -220,84 +233,7 @@
               />
               <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
               <div class="texto">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
-                  quisquam quod laudantium. Sunt, exercitationem nihil ea
-                  perferendis consectetur animi asperiores numquam iure a.
-                </p>
-                <button class="verProducto">Ver producto</button>
-              </div>
-            </div>
-
-            <div class="c">
-              <img
-                class="imgComputadoras"
-                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
-                alt=""
-              />
-              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
-              <div class="texto">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
-                  quisquam quod laudantium. Sunt, exercitationem nihil ea
-                  perferendis consectetur animi asperiores numquam iure a.
-                </p>
-                <button class="verProducto">Ver producto</button>
-              </div>
-            </div>
-
-            <div class="c">
-              <img
-                class="imgComputadoras"
-                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
-                alt=""
-              />
-              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
-              <div class="texto">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
-                  quisquam quod laudantium. Sunt, exercitationem nihil ea
-                  perferendis consectetur animi asperiores numquam iure a.
-                </p>
-                <button class="verProducto">Ver producto</button>
-              </div>
-            </div>
-
-            <div class="c">
-              <img
-                class="imgComputadoras"
-                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
-                alt=""
-              />
-              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
-              <div class="texto">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
-                  quisquam quod laudantium. Sunt, exercitationem nihil ea
-                  perferendis consectetur animi asperiores numquam iure a.
-                </p>
-                <button class="verProducto">Ver producto</button>
-              </div>
-            </div>
-
-            <div class="c">
-              <img
-                class="imgComputadoras"
-                src="./src/img/1121-m0014-m007-m050-m008-gaming-pcs-and-laptops-guide-8538488.jpeg"
-                alt=""
-              />
-              <h4>Pc de oficina | <span class="dinero">precio: 20$</span></h4>
-              <div class="texto">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eaque quas, porro quidem vero molestiae voluptatem eligendi
-                  quisquam quod laudantium. Sunt, exercitationem nihil ea
-                  perferendis consectetur animi asperiores numquam iure a.
-                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 <button class="verProducto">Ver producto</button>
               </div>
             </div>
@@ -404,8 +340,16 @@
     <script type="module" src="./src/js/buscador.js"></script>
     <script type="module" src="./src/js/mostrarCampos.js"></script>
     <script type="module" src="./src/js/verificarDatos.js"></script>
+    <script type="module" src="./src/js/animacion.js"></script>
 
     <!--No tocar-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
