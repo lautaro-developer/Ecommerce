@@ -7,9 +7,26 @@
   padding: 3%;
 }
 
-
 .masInformacion > .redes > ul {
   display: flex;
   justify-content: center;
   gap: 5%;
+}
+
+.redesSosialiesFB > a {
+  color: #4267B2;
+}
+
+.redesSosialiesTW > a {
+  color: #1DA1F2;
+}
+
+
+.redesSosialiesYT > a {
+  color: #FF0000;
+}
+
+
+.redesSosialiesGH > a {
+  color: #171515;
 }
