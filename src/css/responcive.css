@@ -8,6 +8,44 @@
     margin: 20px;
   }
 
+  .ofertaDelDia {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    background-color: #ff0000;
+  }
+
+  .contenedorConsolas {
+    display: block;
+  }
+
+  .divConsolas {
+    margin: 20px 0;
+  }
+
+  .consolasDestacadas {
+    height: 100%;
+  }
+  .a {
+    display: block;
+  }
+  .div__imgOferta {
+    display: initial;
+  }
+
+  .imgOferta {
+    width: 100%;
+  }
+
+  .div__destacados {
+    display: initial;
+  }
+
+  .img__destacados {
+    width: 100%;
+    border-radius: 5px;
+  }
+
   .movil {
     display: initial;
   }
